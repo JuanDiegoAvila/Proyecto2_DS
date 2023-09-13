@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>proyecto2</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="Proyecto2_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Proyecto2_files/libs/quarto-html/quarto.js"></script>
+<script src="Proyecto2_files/libs/quarto-html/popper.min.js"></script>
+<script src="Proyecto2_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Proyecto2_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Proyecto2_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Proyecto2_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Proyecto2_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Proyecto2_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Proyecto2_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="proyecto-2" class="level1">
+<h1>Proyecto 2</h1>
+<section id="hybmap-hpa---hacking-the-human-body" class="level2">
+<h2 class="anchored" data-anchor-id="hybmap-hpa---hacking-the-human-body">HyBMAP + HPA - Hacking the Human Body</h2>
+<section id="situación-problemática" class="level3">
+<h3 class="anchored" data-anchor-id="situación-problemática">Situación problemática</h3>
+<p>El enfoque principal de este tema es identificar y comprender la estructura de cada FTU, o Unidad Funcional de Tejido, en cinco órganos diferentes. Un FTU se describe como un conjunto tridimensional de células que rodean un capilar, con la particularidad de que cada célula dentro de este bloque se encuentra a una distancia de difusión de cualquier otra célula en ese mismo bloque. Esta noción de FTUs y su reconocimiento es esencial para lograr una comprensión más profunda de la organización celular en la composición de estos órganos. Al examinar estos detalles a nivel celular, podemos obtener una visión más completa de cómo los órganos funcionan y se estructuran en su nivel más fundamental.</p>
+</section>
+<section id="problema-científico" class="level3">
+<h3 class="anchored" data-anchor-id="problema-científico">Problema científico</h3>
+<p>La capacidad de reconocer y identificar las Unidades Funcionales de Tejido (FTU) en los órganos del cuerpo es de suma importancia en el campo médico. Este proceso implica la utilización de información proveniente de diversas fuentes, cada una con su propia resolución y enfoque. La razón detrás de esta variedad de fuentes y resoluciones es que refleja la complejidad inherente a la información médica y los desafíos que surgen al trabajar con ella.</p>
+<p>Es fundamental abordar los problemas y desafíos inherentes a la calidad de la información. Los datos pueden estar sujetos a ruido, errores de medición y variabilidad interindividual. Identificar FTUs requiere la capacidad de filtrar y procesar esta información de manera efectiva, separando la señal del ruido y corrigiendo posibles imperfecciones en los datos.</p>
+</section>
+<section id="objetivo-general" class="level3">
+<h3 class="anchored" data-anchor-id="objetivo-general">Objetivo general</h3>
+<ul>
+<li>Desarrollar algoritmos de segmentación de unidades de tejido funcional (FTUs) que sean capaces de identificar y delinear con precisión las FTUs en imágenes de secciones de tejido de cinco órganos humanos diferentes, generalizando su funcionamiento a través de órganos y siendo robustos ante las variaciones en los conjuntos de datos</li>
+</ul>
+</section>
+<section id="objetivos-específicos" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos-específicos">Objetivos específicos</h3>
+<ul>
+<li>Limpiar y preparar de manera efectiva la información de las distintas fuentes para poder utilizarla en los algoritmos de segmentación.</li>
+<li>Crear un modelo que tenga una presición del 85% o superior que permita identificar las FTU en los órganos del cuerpo sin importar la resolución de la imagen.</li>
+</ul>
+</section>
+</section>
+<section id="descripcion-de-los-datos" class="level2">
+<h2 class="anchored" data-anchor-id="descripcion-de-los-datos">Descripcion de los datos</h2>
+<ul>
+<li><code>id</code> - Identificador de la imagen</li>
+<li><code>organ</code> - Nombre del órgano al que pertenece la muestra de la biopsia</li>
+<li><code>data_source</code> - Si la imagen proviene de HPA o HyBMAP</li>
+<li><code>img_height</code> - Altura de la imagen en pixeles</li>
+<li><code>img_width</code> - Ancho de la imagen en pixeles</li>
+<li><code>pixel_size</code> - Tamaño de los pixeles en micrómetros. Los pixeles de las imágenes de HPA tienen un tamaño de 0.4 micrómetros, mientras que los pixeles de las imágenes de HyBMAP tienen un tamaño de 0.5 micrómetros para riñon, 0.2290 micrómetros para el intestino grueso, 0.7562 micrómetros para pulmón, 0.4945 micrómetros para bazo (spleen) y 6.263 micrómetros para la próstata.</li>
+<li><code>tissue_thickness</code> - Grosor del tejido en micrómetros. El grosor del tejido de las imágenes de HPA es de 4 micrómetros, mientras que el grosor del tejido de las imágenes de HyBMAP es de 10 micrómetros para riñon, 8 micrómetros para el intestino grueso, 5 micrómetros para pulmón, 4 micrómetros para bazo (spleen) y 5 micrómetros para la próstata.</li>
+<li><code>rle</code> - La columna objetivo. Una copia codificada de las anotaciones. Proporcionado únicamente para el conjunto de entrenamiento.</li>
+<li><code>age</code> - Edad del paciente</li>
+<li><code>sex</code> - Sexo del paciente</li>
+</ul>
+<div class="cell" data-execution_count="6">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>train_data <span class="op">=</span> pd.read_csv(<span class="st">'./Data/train.csv'</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(train_data.isnull().<span class="bu">sum</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>id                  0
+organ               0
+data_source         0
+img_height          0
+img_width           0
+pixel_size          0
+tissue_thickness    0
+rle                 0
+age                 0
+sex                 0
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="9">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(train_data.head())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      id     organ data_source  img_height  img_width  pixel_size  \
+0  10044  prostate         HPA        3000       3000         0.4   
+1  10274  prostate         HPA        3000       3000         0.4   
+2  10392    spleen         HPA        3000       3000         0.4   
+3  10488      lung         HPA        3000       3000         0.4   
+4  10610    spleen         HPA        3000       3000         0.4   
+
+   tissue_thickness                                                rle   age  \
+0                 4  1459676 77 1462675 82 1465674 87 1468673 92 14...  37.0   
+1                 4  715707 2 718705 8 721703 11 724701 18 727692 3...  76.0   
+2                 4  1228631 20 1231629 24 1234624 40 1237623 47 12...  82.0   
+3                 4  3446519 15 3449517 17 3452514 20 3455510 24 34...  78.0   
+4                 4  478925 68 481909 87 484893 105 487863 154 4908...  21.0   
+
+      sex  
+0    Male  
+1    Male  
+2    Male  
+3    Male  
+4  Female  </code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="23">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(train_data.info())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>&lt;class 'pandas.core.frame.DataFrame'&gt;
+RangeIndex: 351 entries, 0 to 350
+Data columns (total 9 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   id                351 non-null    int64  
+ 1   organ             351 non-null    object 
+ 2   img_height        351 non-null    float64
+ 3   img_width         351 non-null    float64
+ 4   pixel_size        351 non-null    float64
+ 5   tissue_thickness  351 non-null    float64
+ 6   rle               351 non-null    object 
+ 7   age               351 non-null    float64
+ 8   sex               351 non-null    object 
+dtypes: float64(5), int64(1), object(3)
+memory usage: 24.8+ KB
+None</code></pre>
+</div>
+</div>
+<p>Se puede observar que no hay datos faltantes en el conjunto de datos de entrenamiento y no hay variables que tengan errores de tipo ni de formato por lo que no es necesario realizar una limpieza de datos.</p>
+</section>
+<section id="análisis-exploratorio" class="level2">
+<h2 class="anchored" data-anchor-id="análisis-exploratorio">Análisis Exploratorio</h2>
+<div class="cell" data-execution_count="13">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Histograma de los organos</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>plt.hist(train_data[<span class="st">'organ'</span>], bins<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Organo'</span>)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Frecuencia'</span>)</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Frecuencia de los organos en las muestras'</span>)</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Proyecto2_files/figure-html/cell-5-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-execution_count="15">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Data source de las muestras</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>plt.hist(train_data[<span class="st">'data_source'</span>], bins<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Data source'</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Frecuencia'</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Fuentes de datos en el dataset de entrenamiento'</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Proyecto2_files/figure-html/cell-6-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<p>Como solo hay una fuente de datos, se puede eliminar la columna <code>data_source</code> ya que no aporta información relevante para el análisis.</p>
+<div class="cell" data-execution_count="19">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>train_data <span class="op">=</span> train_data.drop([<span class="st">'data_source'</span>], axis<span class="op">=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution_count="24">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># mostrar relacion entre el organo y el tissue thickness</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>sns.boxplot(x<span class="op">=</span><span class="st">'organ'</span>, y<span class="op">=</span><span class="st">'tissue_thickness'</span>, data<span class="op">=</span>train_data)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Proyecto2_files/figure-html/cell-8-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<p>Como toda la información viene de la misma fuente, todas tienen el mismo tamaño, pixel size y el tissue thickness</p>
+<div class="cell" data-execution_count="29">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Diagrama de caja de la edad</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>sns.boxplot(x<span class="op">=</span><span class="st">'organ'</span>, y<span class="op">=</span><span class="st">'age'</span>, data<span class="op">=</span>train_data)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Proyecto2_files/figure-html/cell-9-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<p>Se puede ver que para casi todos los organos la muestra es de un rango de edad parecido, siendo desde los 45 aproximadamente hasta los 75 años, exceptuando del intestino grueso que son de pacientes arriba de ochenta con unos puntos atípicos. Otro que muestra puntos atípicos es de próstata, pero son muy pocos por lo que no afectan a la distribución.</p>
+<div class="cell" data-execution_count="28">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Histograma de sexo de los pacientes</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>plt.hist(train_data[<span class="st">'sex'</span>], bins<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Sexo'</span>)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Frecuencia'</span>)</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Frecuencia del sexo de los pacientes'</span>)</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="Proyecto2_files/figure-html/cell-10-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<p>Se puede observar que la mayoría de las muestras son de hombres, pero hay una cantidad considerable de muestras de mujeres.</p>
+</section>
+<section id="hallazgos-y-conclusiones" class="level2">
+<h2 class="anchored" data-anchor-id="hallazgos-y-conclusiones">Hallazgos y conclusiones</h2>
+<p>Como se pudo observar en el análisis exploratorio la información que se obtuvo es bastante específica para el objetivo del proyecto, y ya que toda la información viene de una misma fuente, la mayoría de valores que cambian como el width, height, thickness y pixel size son iguales para todas las muestras. No se puede hacer más modificaciones o limpiezas ya que la información ya está lista para ser procesada y para crear el modelo.</p>
+<p>Ya que tenemos un dataset bastante especifico y limpio que contiene información sobre diferentes órganos, los siguientes pasos a seguir es poder identificar los mejores algoritmos con los cuales se pueda realizar el modelo para analizar las imágenes y las coordenadas que se encuentran dadas en las anotaciones de cada dato. Ya con el mejor algoritmo lo que seguiría es crear los modelos y hacer las pruebas respectivas con los mismos para saber cuál tuvo un mejor rendimiento y quedarnos con los resultados del mismo.</p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

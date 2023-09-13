@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 Data/
+Proyecto2_files/
 
 # C extensions
 *.so
